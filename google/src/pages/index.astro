@@ -1,0 +1,107 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Google">
+  <header
+    class="flex justify-end items-center w-full h-[48px] px-5 mt-4 space-x-5"
+  >
+    <a
+      href="https://mail.google.com/mail/&ogbl"
+      class="text-[13px] hover:underline"
+    >
+      Gmail
+    </a>
+    <a
+      href="https://www.google.com/imghp?hl=es-419&ogbl"
+      class="text-[13px] hover:underline"
+    >
+      Images
+    </a>
+    <span class="material-symbols-outlined"> apps </span>
+    <img
+      src="https://lh3.googleusercontent.com/-uOtDgVngfLQ/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknh7D-1gv3VvtbHv_kfSbePZdwS9w/photo.jpg?sz=46"
+      class="rounded-full h-[30px] w-[30px]"
+    />
+  </header>
+  <section class="flex items-center justify-center w-full h-full flex-col">
+    <img src="/google-logo.png" />
+    <div
+      class="flex flex-row justify-center items-center border border-[#5f6368] w-[600px] h-[50px] my-10 rounded-3xl py-3 px-4 space-x-3"
+    >
+      <span
+        class="material-symbols-outlined font-normal text-[#9aa0a6] text-[21px]"
+      >
+        search
+      </span>
+      <input
+        type="text"
+        class="w-full h-full bg-transparent outline-none font-medium text-[16px]"
+      />
+      <img src="/microfone.svg" class="h-full cursor-pointer" />
+      <img src="/camera.svg" class="h-full cursor-pointer" />
+    </div>
+    <span class="flex flex-row space-x-5">
+      <button
+        class="bg-[#303134] h-[39px] px-5 rounded-[4px] text-sm border border-transparent font-medium hover:border-[#5f6368]"
+      >
+        Buscar con Google
+      </button>
+      <button
+        class="bg-[#303134] h-[39px] px-5 rounded-[4px] text-sm border border-transparent font-medium hover:border-[#5f6368]"
+      >
+        Voy a tener suerte
+      </button>
+    </span>
+  </section>
+  <footer class="bg-[#171717] w-full flex flex-col">
+    <span
+      class="w-full h-[45px] flex items-center border-b border-b-[#313335] px-4 text-[15px]"
+    >
+      México
+    </span>
+    <span class="w-full h-[45px] flex flex-row items-center px-8">
+      <nav class="text-[14px] space-x-4 w-full flex flex-row">
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://about.google/%3Futm_source%3Dgoogle-MX%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&ved=0ahUKEwjo37ei17yHAxUxD0QIHQpzNpwQkNQCCB8&bl=JSfL&opi=89978449&usg=AOvVaw09qQxZE2XyQ825PN7qaVq3"
+          class="hover:underline"
+        >
+          Sobre Google
+        </a>
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/intl/es-419_mx/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&ved=0ahUKEwjo37ei17yHAxUxD0QIHQpzNpwQkdQCCCA&bl=JSfL&opi=89978449&usg=AOvVaw1QzHJE-K3jCVQm2gja38T9"
+          class="hover:underline"
+        >
+          Publicidad
+        </a>
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&ved=0ahUKEwjo37ei17yHAxUxD0QIHQpzNpwQktQCCCE&bl=JSfL&opi=89978449&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K"
+          class="hover:underline"
+        >
+          Negocios
+        </a>
+        <a
+          href="https://google.com/search/howsearchworks/?fg=1"
+          class="hover:underline"
+        >
+          Cómo funciona la Búsqueda
+        </a>
+      </nav>
+      <nav class="text-[14px] space-x-4 w-full flex flex-row justify-end">
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Des-419%26fg%3D1&ved=0ahUKEwjo37ei17yHAxUxD0QIHQpzNpwQ8awCCCI&bl=JSfL&opi=89978449&usg=AOvVaw0kHgtbRrD3oGV-KWOzk5Hz"
+          class="hover:underline"
+        >
+          Privacidad
+        </a>
+        <a
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Des-419%26fg%3D1&ved=0ahUKEwjo37ei17yHAxUxD0QIHQpzNpwQ8qwCCCM&bl=JSfL&opi=89978449&usg=AOvVaw3Zv4AmKUS3beVzeEax8Pzp"
+          class="hover:underline"
+        >
+          Condiciones
+        </a>
+        <a href="" class="hover:underline">Preferencias</a>
+      </nav>
+    </span>
+  </footer>
+</Layout>
